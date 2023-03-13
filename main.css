@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+        :root {
+        --ff-1 : 'Poppins', sans-serif;
+        --ff-2 : 'PT Serif', serif;
+
+        --clr-black : #000;
+        }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (min-width:1024px) 
+{
+    body{
+        width: 100%;
+        height: auto;
+    }
+    main{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        background: #FAFAFA;
+        margin: 6em auto;
+        padding: 2em;
+        
+    }
+    .cont1{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        width: 100%;
+        height: auto;
+        margin-bottom: 2em;
+    }
+    .Title-name,.subtitle{
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+    }
+    .Title-name h1{
+        width: 262px;
+        font-size: 34px;
+        font-family: 'PT Serif';
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.045em;
+        color: #000000;
+        
+    }
+    .subtitle h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;         
+        text-transform: uppercase;
+        line-height: 0;
+        color: #000000;
+        padding: 1em 0;
+    }
+    .subtitle p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #000000;
+        
+    }
+    .card{
+        width: 230px;
+        height: auto;
+    }
+    .profile{
+        width: auto;
+        height: auto;
+        display:flex;
+        flex-direction: row; 
+        justify-content: flex-start;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .profile p{
+        font-size: small;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        color: #000000;
+        writing-mode: vertical-lr;
+        transform: rotate(0deg);
+        text-align: start;
+        
+    }
+    .card span{
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: start;
+        flex-wrap:wrap;
+        gap: 5em;
+    }
+    
+    footer{
+        width: 100%;
+        height: 3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #A9A9A9;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    body{
+        width: 100%;
+        height: auto;
+    }
+    main{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        background: #FAFAFA;
+        margin: 71px 12px;
+        padding: 5em;
+    }
+    .cont1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin-bottom: 2em ;
+    }
+
+    .Title-name,.subtitle{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .subtitle h2{
+        width: 30%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;         
+        text-transform: uppercase;
+        line-height: 0;
+        color: #000000;
+    }
+    .subtitle p{
+        width: 70%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+        color: #000000;
+    }
+    .card{
+        width: 200px;
+        height: auto;
+    }
+    .profile{
+        
+        width: auto;
+        height: auto;
+        display:flex;
+        flex-direction: row; 
+        justify-content: flex-start;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .profile p{
+        font-size: x-small;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        color: #000000;
+        writing-mode: vertical-lr;
+        transform: rotate(0deg);
+        line-height:2;
+        text-align:start;
+        
+    }
+    .card span{
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .container{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap:wrap;
+        gap: 3em;
+        
+    }
+    footer{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #A9A9A9;
+    }
+}
+
+@media screen and (max-width:767px){
+    body{
+        width: 100%;
+        height: auto;
+    }
+            main{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            background: #FAFAFA;
+            margin: 71px 12px;
+            
+        }
+            .cont1{
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            width: 100%;
+            height: auto;
+            gap: 1em;
+        }
+
+        .Title-name,.subtitle{
+            width: auto;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            
+        }
+        .Title-name h1{
+            font-family: 'PT Serif';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 48px;
+            letter-spacing: -0.045em;
+
+            color: #000000;
+        }
+        .subtitle h2{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            /* identical to box height */
+
+            text-transform: uppercase;
+
+color: #000000;
+        }
+        .subtitle p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+
+            color: #000000;
+            
+        }
+        .card{
+            width: auto;
+            height: auto;
+            
+        }
+        .profile{
+            width: auto;
+            height: auto;
+            display:flex;
+            flex-direction: row; 
+            justify-content: flex-start;
+        }
+        img{
+            width: 128px;
+            min-width: 128px;
+            height: auto;
+        }
+        .profile p{
+            font-size: x-small;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-transform: uppercase;
+            color: #000000;
+            writing-mode: vertical-lr;
+            transform: rotate(0deg);
+            line-height:2;
+            text-align:start;
+            
+        }
+        .card span{
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container{
+            width: auto;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap:wrap;
+            padding-top: 50px;
+            gap: 2em;
+        }
+        footer{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            /* identical to box height */
+    
+            text-align: center;
+    
+            color: #A9A9A9;
+        }
+        }
