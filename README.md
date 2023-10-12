@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://my-team-page-master-a9fdb.web.app">
+    <a href="https://solodeveloperalpha.github.io/My-team-page-master/">
       Demo
     </a>
     <span> | </span>
